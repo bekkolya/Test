@@ -1,0 +1,19 @@
+pipeline{
+      agent any
+      stages{
+          stage('Build'){
+                      steps{
+                            bat 'C:\Users\bekk-\source\repos\MyCalcLib\Build.bat'
+                           }
+                        }
+          stage('Test'){
+                      steps{
+                            bat 'C:\Users\bekk-\source\repos\MyCalcLib\Test.bat'
+                           }
+                       }
+          stage('Archive'){
+                      steps{
+                           }        
+}
+}
+}

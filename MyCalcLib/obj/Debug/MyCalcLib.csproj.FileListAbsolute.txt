@@ -1,0 +1,10 @@
+C:\Users\bekk-\source\repos\MyCalcLib\MyCalcLib\bin\Debug\MyCalcLib.dll
+C:\Users\bekk-\source\repos\MyCalcLib\MyCalcLib\bin\Debug\MyCalcLib.pdb
+C:\Users\bekk-\source\repos\MyCalcLib\MyCalcLib\obj\Debug\MyCalcLib.dll
+C:\Users\bekk-\source\repos\MyCalcLib\MyCalcLib\obj\Debug\MyCalcLib.pdb
+C:\Users\bekk-\source\repos\myproject\MyCalcLib\MyCalcLib\bin\Debug\MyCalcLib.dll
+C:\Users\bekk-\source\repos\myproject\MyCalcLib\MyCalcLib\bin\Debug\MyCalcLib.pdb
+C:\Users\bekk-\source\repos\myproject\MyCalcLib\MyCalcLib\obj\Debug\MyCalcLib.csprojResolveAssemblyReference.cache
+C:\Users\bekk-\source\repos\myproject\MyCalcLib\MyCalcLib\obj\Debug\MyCalcLib.dll
+C:\Users\bekk-\source\repos\myproject\MyCalcLib\MyCalcLib\obj\Debug\MyCalcLib.pdb
+C:\Users\bekk-\source\repos\MyCalcLib\MyCalcLib\obj\Debug\MyCalcLib.csprojResolveAssemblyReference.cache
