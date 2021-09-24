@@ -11,9 +11,6 @@ pipeline{
                             bat 'C:\\Users\\bekk-\\source\\repos\\Project\\Test\\Test.bat'
                            }
                        }
-          stage('Archive'){
-                      steps{
-                           }        
-}
+         
 }
 }
