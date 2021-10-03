@@ -1,0 +1,51 @@
+<<<<<<< HEAD
+pipeline{
+agent any
+stages{
+ stage('Clone'){
+                      steps{
+                            bat 'C:\\Users\\bekk-\\source\\repos\\Project\\Test\\Clone.bat'
+                           }
+                        }
+stage('Build'){
+steps{
+bat 'C:\\Users\\bekk-\\source\\repos\\Project\\Clone\\Build.bat'
+}
+}
+stage('Test'){
+steps{
+bat 'C:\\Users\\bekk-\\source\\repos\\Project\\Clone\\Test.bat'
+}
+}
+stage('Archive') {
+steps {
+zip zipFile: 'C:\\Users\\bekk-\\OneDrive\\Desktop\\Archive\\' + env.BUILD_NUMBER.toString() + '.zip', dir: 'C:\\Users\\bekk-\\source\\repos\\Project\\Clone\\MyCalcLibTests\\bin\\Debug'
+}
+}
+stage('Deploy') {
+steps {
+unzip zipFile: 'C:\\Users\\bekk-\\OneDrive\\Desktop\\Archive\\' + env.BUILD_NUMBER.toString() + '.zip', dir: 'C:\\Users\\bekk-\\OneDrive\\Desktop\\Deploy\\' + env.BUILD_NUMBER.toString()
+}
+}
+
+}
+}
+=======
+pipeline{
+      agent any
+      stages{
+          stage('Build'){
+                      steps{
+                            bat 'C:\\Users\\bekk-\\source\\repos\\Project\\Test\\Build.bat'
+                           }
+                        }
+          stage('Test'){
+                      steps{
+                            bat 'C:\\Users\\bekk-\\source\\repos\\Project\\Test\\Test.bat'
+                           }
+                       }
+          
+                       
+    }
+}
+>>>>>>> c855bc83f950211afe415e6f354165a75ca6a454
